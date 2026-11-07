@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Conda / environments
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+conda_env/
+
+# Medical images and patient data
+*.dcm
+*.dicom
+*.nii
+*.nii.gz
+*.nrrd
+*.mha
+*.mhd
+*.h5
+*.hdf5
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.db
+*.sqlite
+*.jsonl
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.bin
+
+# Generated outputs
+fusion_output/
+PACS_downloads/
+outputs/
+results/
+logs/
+*.log
+
+# Archived scripts
+archive/
+RTJSV_pipeline_archive/
+
+# Temporary files
+*.tmp
+*.bak
+.DS_Store
